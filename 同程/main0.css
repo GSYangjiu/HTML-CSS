@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+    background-color: #2f4050;
+}
+
+.logo {
+    padding: 10px;
+    color: #97a1ab;
+    background-color: #233545;
+}
+
+.logo h3 {
+    margin-left: 33px;
+    font-size: 14px;
+}
+
+.menu ul {
+    color: #8994a4;
+}
+
+.menu ul li {
+    padding: 13px 20px;
+}
+
+.down {
+    float: right;
+    margin-top: 10px;
+}
+
+.menu li ul > li:hover {
+    color: #ffffff;
+}
+
+.menu li ul {
+    display: none;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.menu > ul > li:hover {
+    border-left: 5px solid #19aa8d;
+    padding-left: -5px;
+    color: #e9eaeb;
+    background-color: #293846;
+}
+
+.right {
+    height: 100%;
+    margin-left: 200px;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+}
+
+.status {
+    float: right;
+    line-height: 75px;
+}
+
+.status p {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .h_icon {
+    position: relative;
+    width: 35px;
+    height: 26px;
+    display: inline-block;
+    top: 27px;
+    left: 26px;
+    background-color: #1ab394;
+    border-radius: 3px;
+    tetx-align: centter;
+}
+
+.h_icon i {
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    left: 8px;
+}
+
+.h_icon i:nth-child(1) {
+    top: 8px;
+}
+
+.h_icon i:nth-child(2) {
+    top: 12px;
+}
+
+.h_icon i:nth-child(3) {
+    top: 16px;
+}
+
+.c_333 {
+    color: #333;
+}
+
+.c_green {
+    color: #1ab394;
+}
+
+.c_gray {
+    color: #c6c6c6;
+}
+
+.c_blue {
+    color: #1c84c6;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f4;
+}
+
+.main_left {
+    float: left;
+}
+
+.main_left h4 {
+    text-align: left;
+    color: #676a6c;
+}
+
+.main_left p {
+    display: inline-block;
+    background-color: #f3f5f7;
+    width: 85px;
+    height: 85px;
+    margin: 24px;
+}
+
+.main_left span {
+    color: #676a6c;
+}
+
+.today_data p {
+    width: 240px;
+    height: 85px;
+    background-color: #eaf9f9;
+}
+
+.today_data b:first-of-type {
+    color: #1c84c6;
+}
+
+.today_data p:last-child b {
+    color: #0dc3c5;
+}
+
+.today_data p:first-of-type {
+    background-color: #e8f6ff;
+}
+
+.main_left img {
+    float: right;
+    transform: rotate(-90deg);
+    margin-top: 6px;
+}
+
+.main_left b {
+    display: block;
+    font-size: 35px;
+    color: #6a7989;
+}
+
+.main_right {
+    float: left;
+}
+
+.today_data, .my_customer, .my_achieve {
+    background-color: #ffffff;
+    width: 600px;
+    height: 160px;
+    margin: 30px 24px;
+    box-shadow: 0 -5px 0 #e7eaec;
+    text-align: center;
+    padding: 20px;
+}
+
+.my_achieve span {
+    text-align: center;
+}
+
+.my_achieve a {
+    float: right;
+}
+
+.tab_fold {
+    background: #FFF;
+    margin-top: 30px;
+    box-shadow: 0 -5px 0 #efeaec;
+    padding: 20px;
+    height: 460px;
+}
+
+.tab_fold p {
+    color: #676a6c;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #e7eaec;
+}
+
+.tab_fold span {
+    margin-left: 10px;
+}
+
+.tab_fold span {
+    margin-left: 10px;
+}
+
+.tab_fold div {
+    text-align: center;
+    color: #6a7989;
+    line-height: 60px;
+}
+
+.tab_fold div img {
+    transform: rotate(-90deg);
+}
+
+input, section {
+    clear: both;
+    padding-top: 10px;
+    display: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    float: left;
+    padding: 10px 30px;
+    border-bottom: 1px solid #DDD;
+}
+
+label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#tab1:checked ~ #content1, #tab2:checked ~ #content2, #tab3:checked ~ #content3, #tab4:checked ~ #content4 {
+    display: block;
+}
+
+input:checked + label {
+    border-bottom-color: #1ab394;
+    border-width: 2px;
+    text-decoration: none;
+}
+
+.fast_guide {
+    background-color: #fff;
+    margin-top: 24px;
+    padding: 20px;
+    width: 300px;
+}
+
+.fast_guide span {
+    padding: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e7eaec;
+    width: 56px;
+    text-align: center;
+}
+
+.fast_guide span:first-of-type{
+    background-color: #1ab394;
+    color: #FFFFFF;
+}
+
+.fast_guide h4{
+    color: #676a6c;
+}
